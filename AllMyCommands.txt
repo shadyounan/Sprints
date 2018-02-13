@@ -1,0 +1,14 @@
+git init
+git add first.txt
+git add second.txt
+git add third.txt
+rm second.txt
+git checkout second.txt
+git commit -m "Sprint"
+git congif --global user.email"shoda96@hotmail.com"
+git congif --global user.name"shadyounan"
+git remote add origin https://github.com/shadyounan/Sprints.git
+git push -u origin master
+git checkout -b ReadMe
+git add README.md
+git commit -m "last"
