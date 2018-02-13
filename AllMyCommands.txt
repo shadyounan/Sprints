@@ -12,3 +12,5 @@ git push -u origin master
 git checkout -b ReadMe
 git add README.md
 git commit -m "last"
+git add AllMyCommands.txt
+git commit -m "last"
